@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<modifications>
+	<replaceFile>
+		<source>Modifications\setup.cmd</source>
+		<target>setup.cmd</target>
+	</replaceFile>
+	<replaceFile>
+		<source>Modifications\installer.ini</source>
+		<target>installer.ini</target>
+	</replaceFile>
+	<replaceFile>
+		<source>Modifications\core\mozilla.cfg</source>
+		<target>core\mozilla.cfg</target>
+	</replaceFile>
+	<replaceFile>
+		<source>Modifications\core\override.ini</source>
+		<target>core\override.ini</target>
+	</replaceFile>	
+	<replaceFile>
+		<source>Modifications\core\defaults\pref\all-custom.js</source>
+		<target>core\defaults\pref\all-custom.js</target>
+	</replaceFile>	
+</modifications>
