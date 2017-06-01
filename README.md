@@ -12,8 +12,8 @@ Added features:
 
 * Extract Firefox setup files with 7Zip to avoid having to run the script elevated
 * Support AppDeployToolkit
-    * Directory structure
-    * Support 32-bit ServiceUI.exe by running the installation as 32-bit process
+   * Directory structure
+   * Support 32-bit ServiceUI.exe by running the installation as 32-bit process
 * Make string replacements in files configurable with XML config file
 * Create SCCM Application and Deployment Type
 
@@ -23,7 +23,7 @@ The script doesn't enable completely automated workflow. Manual work is required
 * Supercede previous Firefox version (No can do in PowerShell?)
 * Create the deployments (This is possible in PowerShell, but I prefer doing it manually just in case)
 
-## Credits
+# Credits
 
 Contributors:
 
