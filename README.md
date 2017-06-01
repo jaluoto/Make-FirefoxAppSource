@@ -11,9 +11,8 @@ This is a fork of <https://github.com/hewipera/Make-FirefoxAppSource>.
 Added features:
 
 * Extract Firefox setup files with 7Zip to avoid having to run the script elevated
-* Support AppDeployToolkit
-  * Directory structure
-  * Support 32-bit ServiceUI.exe by running the installation as 32-bit process
+* Support PSAppDeployToolkit directory structure
+* Support PSAppDeployToolkit with 32-bit ServiceUI.exe by running the installation as 32-bit process
 * Make string replacements in files configurable with XML config file
 * Create SCCM Application and Deployment Type
 
