@@ -239,7 +239,7 @@ Try {
 }
 
 # Detection script accepts 32-bit and 64-bit Firefox
-$DetectionScript = "If (Test-Path 'C:\Program Files (x86)\Mozilla Firefox\firefox.exe') {`$version = (Get-ChildItem 'C:\Program Files (x86)\Mozilla Firefox\firefox.exe').VersionInfo.ProductVersion}`nIf (Test-Path 'C:\Program Files\Mozilla Firefox\firefox.exe') {`$version = (Get-ChildItem 'C:\Program Files\Mozilla Firefox\firefox.exe').VersionInfo.ProductVersion}`nIf (`$version -eq [System.Version]'$FirefoxProductVersion') {Write-Host 'Installed'}`nexit 0"
+$DetectionScript = "If (Test-Path 'C:\Program Files (x86)\Mozilla Firefox\firefox.exe') {`$version = [System.Version](Get-ChildItem 'C:\Program Files (x86)\Mozilla Firefox\firefox.exe').VersionInfo.ProductVersion}`nIf (Test-Path 'C:\Program Files\Mozilla Firefox\firefox.exe') {`$version = [System.Version](Get-ChildItem 'C:\Program Files\Mozilla Firefox\firefox.exe').VersionInfo.ProductVersion}`nIf (`$version -ge [System.Version]'$FirefoxProductVersion') {Write-Host 'Installed'}`nexit 0"
 
 Write-Host "Creating Deployment Type..."
 
