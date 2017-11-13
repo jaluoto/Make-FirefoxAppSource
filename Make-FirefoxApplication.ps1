@@ -52,7 +52,7 @@ $AppFolder = "$($CMSite):\Application\Mozilla\Firefox"
 # Application name prefix
 $AppName = "Mozilla Firefox ESR"
 # Install and uninstall commands
-$InstallCommand = 'setup.exe'
+$InstallCommand = 'setup.cmd'
 $UninstallCommand = '"C:\Program Files (x86)\Mozilla Firefox\uninstall\helper.exe" -ms'
 # Installation program visibility (One of Hidden, Maximized, Minimized, Normal)
 $InstVisib = 'Normal'
